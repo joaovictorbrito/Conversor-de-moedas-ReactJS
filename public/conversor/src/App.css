@@ -1,0 +1,14 @@
+.Linha {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+h1{
+  text-align: center;
+}
+
+.App {
+  max-width: 900px;
+  margin: auto;
+}
