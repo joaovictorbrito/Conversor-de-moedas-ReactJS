@@ -1,0 +1,31 @@
+
+.conversor {
+    
+    border-radius: 5%;
+    background-color: rgb(132, 74, 180);
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    
+}
+input {
+    height:19px;
+}
+.botao{
+    background-color: rgb(60, 7, 121);         
+    color: white; 
+}
+
+.botao {
+    margin: auto;
+    cursor: pointer;
+    margin-left: 2px;
+    border-radius: 12%;
+    padding: 5px 7px;
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    transition: 200ms;
+}
+.botao:hover {
+    background-color: rgb(113, 32, 145);
+}

@@ -1,0 +1,112 @@
+#squares li{
+  opacity: 0.1;
+}
+.quadrado1 {
+  background-color:rgb(89, 118, 180);
+  display: block;
+  position: absolute;
+  
+  animation-direction: alternate;
+
+
+  width: 80px;
+  height: 80px;
+  left: 8%;
+  background-color:rgb(89, 118, 180);
+  
+  bottom: -40px;
+  animation-delay: 5s;
+  animation: up 3s infinite;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  
+}
+.quadrado2{
+  background-color:rgb(89, 118, 180);
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  animation-direction: alternate;
+  width: 120px;
+  height: 120px;
+  left: 20%;
+
+ 
+  animation-delay: 1s;
+  animation: up 3s infinite;
+  animation-timing-function: linear;
+
+}
+.quadrado3{
+  background-color:rgb(89, 118, 180);
+  
+  
+  bottom: -300px;
+  animation-direction: alternate;
+  width: 150px;
+  height: 150px;
+  left: 35%;
+  
+  display: block;
+  position: absolute;
+  bottom: -60px; 
+  animation-delay: 4s;
+  animation: up 4s infinite;
+  animation-timing-function: linear;
+}
+.quadrado4{
+  background-color:rgb(89, 118, 180);
+  display: block;
+  position: absolute;
+  
+  animation-direction: alternate;
+  width: 100px;
+  height: 100px;
+  left: 55%;
+  
+  bottom: -60px;
+  animation-delay: 3s;
+  animation: up 5s infinite;
+  animation-timing-function: linear;
+}
+.quadrado5{
+   
+    
+   
+    animation-direction: alternate;
+  width: 160px;
+  height: 160px;
+  left: 70%;
+  background-color:rgb(89, 118, 180);
+  display: block;
+  position: absolute;
+  bottom: -60px;
+  animation-delay: 4s;
+  animation: up 3s infinite;
+  animation-timing-function: linear;
+}
+.quadrado6{
+  background-color:rgb(89, 118, 180);
+  
+  
+  
+  animation-direction: alternate;
+  width: 180px;
+  height: 180px;
+  left: 85%;
+  display: block;
+  position: absolute;
+  bottom: -60px;
+  animation-delay: 5s;
+  animation: up 4s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1200px) rotate(800deg);
+  }
+}

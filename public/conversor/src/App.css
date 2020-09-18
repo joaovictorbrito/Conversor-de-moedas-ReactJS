@@ -1,14 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  background-color: rgb(47, 85, 167);
+}
 .Linha {
   display: flex;
-  margin-top: 40px;
+  margin-top: 22px;
   justify-content: space-around;
+  color: white;
+ 
 }
-
+.App{
+  font-family: 'Roboto', sans-serif; 
+}
+.App h1 {
+  font-weight: 900;
+  color: white;
+}
 h1{
   text-align: center;
 }
-
-.App {
+.container{
   max-width: 900px;
   margin: auto;
 }
+.App {
+  margin: auto;
+}
+
+
+.App {
+  animation-name: fade;
+  animation-duration: 500ms;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
