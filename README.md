@@ -1,4 +1,4 @@
-# Conversor-de-moedas-ReactJS
+# Conversor-de-moedas-ReactJS :money_with_wings:
 Conversor de moedas utilizando o ReactJS 
 
 <h1 align="center">
@@ -6,9 +6,9 @@ Conversor de moedas utilizando o ReactJS
 </h1>
 
 <h1>
-    <img src="public/conversor/src/componente/animacao/React-App.gif">
+    <img src="public/conversor/src/componente/React-App.gif">
 </h1>
 
-## Tecnologias utilizadas
-O projeto foi desenvolvido com React e css
+## Tecnologias utilizadas :computer:
+O projeto foi desenvolvido com React e css 
 
